@@ -7,11 +7,6 @@ from .models import Post # . at front of models just means the current folder.
 def home(request):
     return render(request, 'landing/home.html')
 
-def route(request):
-    context = {
-        'title': 'Loose Change - Best Route',
-    }
-    return render(request, 'landing/route.html', context)
 
 def blog(request):
     context = { # any data to be passed to page is put in this dictionary

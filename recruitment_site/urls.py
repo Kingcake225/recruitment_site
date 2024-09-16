@@ -21,5 +21,6 @@ from users import views as user_views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('landing.urls')), #sends to landing.urls, which indicates where logic is held.
+    path('', include('distanceToOffice.urls')),
     path('register/', user_views.register, name='register'),
 ]
