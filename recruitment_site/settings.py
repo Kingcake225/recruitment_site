@@ -34,8 +34,8 @@ INSTALLED_APPS = [
     'landing.apps.LandingConfig', # Landing page app
     'users.apps.UsersConfig', # App related to user functionality
     'crispy_forms', # Adds third party addon
-    'cv_upload.apps.CvUploadConfig', # CV Upload App
-    'crispy_bootstrap4',
+    'cv_upload.apps.CvUploadConfig',  # CV Upload App
+    'crispy_bootstrap4',  # Bootstrap 4 theme for crispy forms
     'distanceToOffice.apps.DistancetoofficeConfig',
     'django.contrib.admin',
     'django.contrib.auth',
